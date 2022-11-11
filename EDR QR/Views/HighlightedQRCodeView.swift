@@ -58,7 +58,7 @@ struct HighlightedQRCodeView: View {
                                                     height: imageRenderSize.height * scaleFactor))
         })
         
-        MetalView(renderer: renderer)
+        MetalView_SwiftUICompatible(renderer: renderer)
         
     }
     

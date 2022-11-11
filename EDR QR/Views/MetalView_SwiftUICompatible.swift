@@ -8,7 +8,7 @@ A representable container that uses a `MTKView` to periodically render a `CIImag
 import SwiftUI
 import MetalKit
 
-struct MetalView: UIViewRepresentable {
+struct MetalView_SwiftUICompatible: UIViewRepresentable {
     
     @StateObject var renderer: Renderer
     /// - Tag: MakeView

@@ -12,7 +12,7 @@
 		D126115F2792512F0077DC35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D126114E2792512D0077DC35 /* ContentView.swift */; };
 		D12611612792512F0077DC35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D126114F2792512F0077DC35 /* Assets.xcassets */; };
 		D1261170279252CA0077DC35 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D126116C279252CA0077DC35 /* Renderer.swift */; };
-		D1261172279252CA0077DC35 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D126116D279252CA0077DC35 /* MetalView.swift */; };
+		D1261172279252CA0077DC35 /* MetalView_SwiftUICompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = D126116D279252CA0077DC35 /* MetalView_SwiftUICompatible.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		D126114F2792512F0077DC35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D12611542792512F0077DC35 /* RenderDestinationMetalView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RenderDestinationMetalView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D126116C279252CA0077DC35 /* Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
-		D126116D279252CA0077DC35 /* MetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		D126116D279252CA0077DC35 /* MetalView_SwiftUICompatible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalView_SwiftUICompatible.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +49,8 @@
 		2ABB70B4291CE79C0072D4C0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D126116D279252CA0077DC35 /* MetalView.swift */,
+				2ABB70B1291CE1C80072D4C0 /* HighlightedQRCodeView.swift */,
+				D126116D279252CA0077DC35 /* MetalView_SwiftUICompatible.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -66,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				D126114E2792512D0077DC35 /* ContentView.swift */,
-				2ABB70B1291CE1C80072D4C0 /* HighlightedQRCodeView.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -179,7 +179,7 @@
 			files = (
 				D1261170279252CA0077DC35 /* Renderer.swift in Sources */,
 				D126115F2792512F0077DC35 /* ContentView.swift in Sources */,
-				D1261172279252CA0077DC35 /* MetalView.swift in Sources */,
+				D1261172279252CA0077DC35 /* MetalView_SwiftUICompatible.swift in Sources */,
 				D126115D2792512F0077DC35 /* RenderDestinationMetalViewApp.swift in Sources */,
 				2ABB70B2291CE1C80072D4C0 /* HighlightedQRCodeView.swift in Sources */,
 			);
