@@ -6,6 +6,6 @@ WWDC 2022で発表されたMetalの新機能では、EDRを使って画面画像
 
 # Articles
 
-https://qiita.com/MaShunzhe/items/5dfb4dbfca2a25cbaddf#githubリポジトリ
+Qiita: https://qiita.com/MaShunzhe/items/5dfb4dbfca2a25cbaddf
 
 English: https://articles.mszpro.com/increase-brightness-for-only-the-qr-code-portion-on-the-screen-for-ios-app-4df7f41423dd
